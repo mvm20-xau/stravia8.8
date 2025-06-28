@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRAVIA - Conditions d'Utilisation et Politique de Confidentialité</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #e2e8f0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(30, 41, 59, 0.9);
+            border-radius: 16px;
+            padding: 40px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid rgba(59, 130, 246, 0.3);
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .nav-btn {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            color: #93c5fd;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .nav-btn:hover, .nav-btn.active {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: rgba(59, 130, 246, 0.6);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .content-section {
+            display: none;
+        }
+        
+        .content-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            color: #3b82f6;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #8b5cf6;
+            font-size: 1.8rem;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+        }
+        
+        h3 {
+            color: #06b6d4;
+            font-size: 1.4rem;
+            margin: 25px 0 10px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #cbd5e1;
+        }
+        
+        ul {
+            margin: 15px 0 15px 30px;
+            color: #cbd5e1;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background: rgba(59, 130, 246, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+            margin: 20px 0;
+        }
+        
+        .contact-info {
+            background: rgba(139, 92, 246, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #64748b;
+            font-style: italic;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(100, 116, 139, 0.3);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">STRAVIA</div>
+            <p>Strategic Autonomous AI - Documents Légaux</p>
+        </div>
+        
+        <div class="nav">
+            <a href="#" class="nav-btn active" onclick="showSection('cgu')">📋 Conditions d'Utilisation</a>
+            <a href="#" class="nav-btn" onclick="showSection('privacy')">🔒 Politique de Confidentialité</a>
+        </div>
+        
+        <!-- CONDITIONS D'UTILISATION -->
+        <div id="cgu" class="content-section active">
+            <h1>Conditions Générales d'Utilisation</h1>
+            
+            <div class="highlight">
+                <strong>En utilisant STRAVIA, vous acceptez ces conditions d'utilisation dans leur intégralité.</strong>
+            </div>
+            
+            <h2>1. Présentation du Service</h2>
+            <p>STRAVIA est une plateforme d'agents IA autonomes conçue pour automatiser et optimiser diverses tâches commerciales et créatives. Notre service comprend :</p>
+            <ul>
+                <li>15 agents IA spécialisés fonctionnant de manière autonome</li>
+                <li>Génération automatique de contenu et de SaaS</li>
+                <li>Prospection commerciale automatisée</li>
+                <li>Analyses financières et optimisation des revenus</li>
+                <li>Déploiement automatique d'applications</li>
+            </ul>
+            
+            <h2>2. Acceptation des Conditions</h2>
+            <p>L'utilisation de STRAVIA implique l'acceptation pleine et entière des présentes conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre service.</p>
+            
+            <h2>3. Description des Services</h2>
+            <h3>3.1 Agents IA Autonomes</h3>
+            <p>STRAVIA met à disposition 15 agents IA spécialisés capables d'exécuter des tâches de manière autonome :</p>
+            <ul>
+                <li><strong>Agent Chercheur :</strong> Recherche d'opportunités SaaS rentables</li>
+                <li><strong>Agent Développeur :</strong> Développement et déploiement automatique de SaaS</li>
+                <li><strong>Agent Commercial :</strong> Prospection et génération de leads</li>
+                <li><strong>Agent Créateur de Contenu :</strong> Création de contenu viral</li>
+                <li><strong>Agent Financier :</strong> Analyse et optimisation financière</li>
+                <li>Et 10 autres agents spécialisés</li>
+            </ul>
+            
+            <h3>3.2 Fonctionnalités Automatisées</h3>
+            <p>Les agents peuvent automatiquement :</p>
+            <ul>
+                <li>Créer et déployer des applications web</li>
+                <li>Publier du contenu sur les réseaux sociaux</li>
+                <li>Envoyer des emails de prospection</li>
+                <li>Analyser les performances financières</li>
+                <li>Optimiser le référencement SEO</li>
+            </ul>
+            
+            <h2>4. Obligations de l'Utilisateur</h2>
+            <h3>4.1 Utilisation Responsable</h3>
+            <p>L'utilisateur s'engage à :</p>
+            <ul>
+                <li>Utiliser STRAVIA conformément aux lois en vigueur</li>
+                <li>Ne pas utiliser le service à des fins illégales ou nuisibles</li>
+                <li>Respecter les conditions d'utilisation des plateformes tierces</li>
+                <li>Protéger ses identifiants de connexion</li>
+            </ul>
+            
+            <h3>4.2 Configuration des APIs</h3>
+            <p>L'utilisateur est responsable de :</p>
+            <ul>
+                <li>Fournir des clés API valides et légalement obtenues</li>
+                <li>Respecter les limites d'utilisation des APIs tierces</li>
+                <li>Assumer les coûts liés à l'utilisation des APIs externes</li>
+            </ul>
+            
+            <h2>5. Limitations de Responsabilité</h2>
+            <h3>5.1 Disponibilité du Service</h3>
+            <p>STRAVIA s'efforce de maintenir le service disponible 24h/7j, mais ne peut garantir une disponibilité absolue. Des interruptions peuvent survenir pour maintenance ou raisons techniques.</p>
+            
+            <h3>5.2 Résultats des Agents</h3>
+            <p>Les performances des agents IA peuvent varier. STRAVIA ne garantit pas :</p>
+            <ul>
+                <li>Des revenus spécifiques ou constants</li>
+                <li>Le succès des campagnes automatisées</li>
+                <li>La viralité du contenu créé</li>
+                <li>L'absence d'erreurs dans le code généré</li>
+            </ul>
+            
+            <h2>6. Propriété Intellectuelle</h2>
+            <p>Les contenus créés par les agents STRAVIA appartiennent à l'utilisateur. STRAVIA conserve la propriété de sa technologie et de ses algorithmes.</p>
+            
+            <h2>7. Protection des Données</h2>
+            <p>STRAVIA s'engage à protéger les données de ses utilisateurs conformément à notre Politique de Confidentialité et au RGPD.</p>
+            
+            <h2>8. Résiliation</h2>
+            <p>L'utilisateur peut résilier son compte à tout moment. STRAVIA se réserve le droit de suspendre un compte en cas de violation des présentes conditions.</p>
+            
+            <h2>9. Modifications</h2>
+            <p>STRAVIA se réserve le droit de modifier ces conditions d'utilisation. Les utilisateurs seront informés des modifications importantes.</p>
+            
+            <h2>10. Droit Applicable</h2>
+            <p>Ces conditions sont régies par le droit français. Tout litige sera soumis à la compétence des tribunaux français.</p>
+            
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p>Pour toute question concernant ces conditions d'utilisation :</p>
+                <p><strong>Email :</strong> legal@stravia.ai</p>
+                <p><strong>Adresse :</strong> STRAVIA, France</p>
+            </div>
+        </div>
+        
+        <!-- POLITIQUE DE CONFIDENTIALITÉ -->
+        <div id="privacy" class="content-section">
+            <h1>Politique de Confidentialité</h1>
+            
+            <div class="highlight">
+                <strong>STRAVIA respecte votre vie privée et s'engage à protéger vos données personnelles.</strong>
+            </div>
+            
+            <h2>1. Collecte des Données</h2>
+            <h3>1.1 Données Collectées Automatiquement</h3>
+            <p>Lors de l'utilisation de STRAVIA, nous collectons :</p>
+            <ul>
+                <li>Adresse IP et informations de connexion</li>
+                <li>Type de navigateur et système d'exploitation</li>
+                <li>Pages visitées et temps de navigation</li>
+                <li>Logs d'activité des agents IA</li>
+            </ul>
+            
+            <h3>1.2 Données Fournies par l'Utilisateur</h3>
+            <ul>
+                <li>Informations de compte (email, nom d'utilisateur)</li>
+                <li>Clés API des services tiers</li>
+                <li>Paramètres de configuration des agents</li>
+                <li>Contenus générés et publiés</li>
+            </ul>
+            
+            <h2>2. Utilisation des Données</h2>
+            <p>Vos données sont utilisées pour :</p>
+            <ul>
+                <li>Fournir et améliorer les services STRAVIA</li>
+                <li>Personnaliser l'expérience utilisateur</li>
+                <li>Optimiser les performances des agents IA</li>
+                <li>Assurer la sécurité de la plateforme</li>
+                <li>Communiquer avec vous concernant le service</li>
+            </ul>
+            
+            <h2>3. Partage des Données</h2>
+            <h3>3.1 Aucun Partage Commercial</h3>
+            <p>STRAVIA ne vend, ne loue, ni ne partage vos données personnelles avec des tiers à des fins commerciales.</p>
+            
+            <h3>3.2 Services Tiers Intégrés</h3>
+            <p>Vos données peuvent être transmises aux services suivants pour le fonctionnement des agents :</p>
+            <ul>
+                <li><strong>OpenAI :</strong> Pour l'intelligence artificielle des agents</li>
+                <li><strong>GitHub :</strong> Pour le déploiement automatique de code</li>
+                <li><strong>Vercel :</strong> Pour l'hébergement des applications</li>
+                <li><strong>Plateformes sociales :</strong> Pour la publication de contenu</li>
+            </ul>
+            
+            <h2>4. Sécurité des Données</h2>
+            <p>Nous mettons en place des mesures de sécurité appropriées :</p>
+            <ul>
+                <li>Chiffrement des données en transit et au repos</li>
+                <li>Accès limité aux données par le personnel autorisé</li>
+                <li>Surveillance continue de la sécurité</li>
+                <li>Sauvegardes régulières et sécurisées</li>
+            </ul>
+            
+            <h2>5. Conservation des Données</h2>
+            <p>Nous conservons vos données :</p>
+            <ul>
+                <li><strong>Données de compte :</strong> Jusqu'à la suppression du compte</li>
+                <li><strong>Logs d'activité :</strong> 12 mois maximum</li>
+                <li><strong>Contenus générés :</strong> Selon vos paramètres de configuration</li>
+                <li><strong>Données analytiques :</strong> 24 mois maximum</li>
+            </ul>
+            
+            <h2>6. Vos Droits (RGPD)</h2>
+            <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+            <ul>
+                <li><strong>Droit d'accès :</strong> Consulter vos données personnelles</li>
+                <li><strong>Droit de rectification :</strong> Corriger des données inexactes</li>
+                <li><strong>Droit à l'effacement :</strong> Supprimer vos données</li>
+                <li><strong>Droit à la portabilité :</strong> Récupérer vos données</li>
+                <li><strong>Droit d'opposition :</strong> S'opposer au traitement</li>
+                <li><strong>Droit de limitation :</strong> Limiter le traitement</li>
+            </ul>
+            
+            <h2>7. Cookies et Technologies Similaires</h2>
+            <p>STRAVIA utilise des cookies pour :</p>
+            <ul>
+                <li>Maintenir votre session de connexion</li>
+                <li>Mémoriser vos préférences</li>
+                <li>Analyser l'utilisation du service</li>
+                <li>Améliorer les performances</li>
+            </ul>
+            
+            <h2>8. Transferts Internationaux</h2>
+            <p>Certaines données peuvent être transférées vers des pays tiers (États-Unis) pour l'utilisation des services OpenAI et autres APIs. Ces transferts sont encadrés par des garanties appropriées.</p>
+            
+            <h2>9. Modifications de la Politique</h2>
+            <p>Cette politique peut être mise à jour. Nous vous informerons des modifications importantes par email ou notification dans l'interface.</p>
+            
+            <h2>10. Contact</h2>
+            <p>Pour exercer vos droits ou pour toute question :</p>
+            <ul>
+                <li><strong>Email :</strong> privacy@stravia.ai</li>
+                <li><strong>Délégué à la Protection des Données :</strong> dpo@stravia.ai</li>
+                <li><strong>Autorité de contrôle :</strong> CNIL (France)</li>
+            </ul>
+            
+            <div class="contact-info">
+                <h3>Exercer vos Droits</h3>
+                <p>Pour exercer vos droits RGPD, contactez-nous à :</p>
+                <p><strong>privacy@stravia.ai</strong></p>
+                <p>Nous répondrons sous 30 jours maximum.</p>
+            </div>
+        </div>
+        
+        <div class="last-updated">
+            Dernière mise à jour : 28 juin 2025<br>
+            Version 1.0
+        </div>
+    </div>
+    
+    <script>
+        function showSection(sectionId) {
+            // Masquer toutes les sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Masquer tous les boutons actifs
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Afficher la section demandée
+            document.getElementById(sectionId).classList.add('active');
+            
+            // Marquer le bouton comme actif
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
